@@ -34,11 +34,14 @@ class TypeCasting {
         // Two string conversions of f and d:
         System.out.println("Math.sin(" + f + ")==" + d);
 
-        int eightBytes = 128;
-        short target = (byte) eightBytes;
+        //destructive type cast
+        int eightBytes = 0xffff;
+        byte target = (byte) eightBytes;
+        assert target == eightBytes;
         System.out.println(target == eightBytes);
+        System.out.println(target & 0xff);
+        System.out.println(eightBytes & 0xff);
         System.out.println(target);
         System.out.println(eightBytes);
-
     }
 }
