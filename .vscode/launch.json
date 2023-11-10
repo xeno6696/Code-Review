@@ -1,0 +1,64 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Autoboxing",
+            "request": "launch",
+            "mainClass": "foo.Autoboxing",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "functions.TypeCasting",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "functions.Test",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "ByteLoop",
+            "request": "launch",
+            "mainClass": "functions.ByteLoop",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "FuncUtils",
+            "request": "launch",
+            "mainClass": "functions.FuncUtils",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "PrintErr",
+            "request": "launch",
+            "mainClass": "foo.PrintErr",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "PrintErr",
+            "request": "launch",
+            "mainClass": "PrintErr",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Code-Review_ae53dd46"
+        }
+    ]
+}
