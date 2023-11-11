@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Overflow",
+            "request": "launch",
+            "mainClass": "ExampleErrors.Overflow",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
             "name": "Autoboxing",
             "request": "launch",
             "mainClass": "foo.Autoboxing",

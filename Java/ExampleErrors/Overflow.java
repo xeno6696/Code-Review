@@ -5,7 +5,7 @@ public class Overflow {
         int value = Integer.MAX_VALUE;
 
         System.out.println(value);
-        System.out.println(value + 1);
+        //System.out.println(value + 1);
         System.exit(0);
     }
 }
