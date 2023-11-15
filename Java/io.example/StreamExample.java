@@ -9,7 +9,7 @@ public class StreamExample {
 
         PrintStream stdout = System.out;
         PrintStream stderr = System.err;
-        InputStream stdin = System.in;
+        InputStream stdin = System.in;  //See ScanXan.java
 
         stdout.println("Hello again!");
         stderr.println("WARNING!  ALL YOUR BASE ARE BELONG TO US!");
