@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScanXan",
+            "request": "launch",
+            "mainClass": "ScanXan",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "ScanXan",
+            "request": "launch",
+            "mainClass": "inputs.ScanXan",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
             "name": "Overflow",
             "request": "launch",
             "mainClass": "ExampleErrors.Overflow",
