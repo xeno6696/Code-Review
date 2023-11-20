@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
         printf("%s\n", output);                                  //print the string
                                                     
     }
-    printf("%s\n", "Freeing Memory!");
+    //printf("%s\n", "Freeing Memory!");
     free(output);                                                //always undo what was done (i.e. memory, closing files, etc.)  
     return EXIT_SUCCESS; //Or zero!
 }
