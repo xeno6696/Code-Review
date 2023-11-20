@@ -2,6 +2,7 @@
 
 def main():
     #gain access to args and print them  
+    sys.exit(0)
 
 if __name__ == '__main__':
     main()

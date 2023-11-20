@@ -25,5 +25,6 @@ public class ScanXan {
                 s.close();
             }
         }
+        System.exit(0);
     }
 }
