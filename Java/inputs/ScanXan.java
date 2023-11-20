@@ -7,7 +7,8 @@ import java.util.Scanner;
  */
 public class ScanXan {
     public static void main(String[] args) throws IOException {
-
+        //https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html
+        //Remember to match the doc with the version of Java you're compiling with!!
         Scanner s = null;
 
         try {

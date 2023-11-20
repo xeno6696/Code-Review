@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntType",
+            "request": "launch",
+            "mainClass": "primitive.types.IntType",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
+            "name": "CharType",
+            "request": "launch",
+            "mainClass": "primitive.types.CharType",
+            "projectName": "Code-Review_ae53dd46"
+        },
+        {
+            "type": "java",
             "name": "ScanXan",
             "request": "launch",
             "mainClass": "ScanXan",
