@@ -1,9 +1,9 @@
 #include <stdio.h>
-typedef struct {
+typedef struct Node{
 	int value;
-	node * next;
+	Node * next;
 	char label;
-} node;
+}; 
 
 int main(void){
 	char charEx = 'A';
@@ -33,6 +33,9 @@ int main(void){
 	printf("Size of long long *: [%ld]\n", sizeof (&longLongEx));
 	printf("Size of float *:     [%ld]\n", sizeof (&floatEx));
 	printf("Size of double *:    [%ld]\n", sizeof (&doubleEx));
-	
+
+	//Exercise:  Predict the size of the node struct at the top of this file.  
+	struct Node firstNode;
+
 	return 0;
 }
